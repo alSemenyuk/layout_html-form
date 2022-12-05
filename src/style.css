@@ -1,1 +1,11 @@
-/* styles go here */
+.labelBlock {
+  display: block;
+}
+
+.labelBlock:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.basicBlock {
+  margin-bottom: 20px;
+}
